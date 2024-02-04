@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Yayyy!! :3";
+  titleElement.innerHTML = "Yayyy now you're officialy my valentine baby rabbit!! :)";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
@@ -43,11 +43,11 @@ function resizeYesButton() {
 function generateMessage(noCount) {
   const messages = [
     "No",
-    "Are you sure?",
-    "Pookie please",
-    "Don't do this to me :(",
-    "You're breaking my heart",
-    "I'm gonna cry...",
+    "Are you sure baby?",
+    "baby soobie pls",
+    "Don't do this to me angel:(",
+    "You're breaking your baby bear's heart",
+    "I'll cry and you'll lose your baby bear...",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
